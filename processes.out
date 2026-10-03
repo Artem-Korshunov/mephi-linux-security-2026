@@ -1,0 +1,10 @@
+    PID  RUID  EUID USER     RUSER    COMMAND         COMMAND
+   3111  1000     0 root     artem    fusermount3     fusermount3 -o rw,nosuid,nodev,fsname=portal,auto_unmount,subtype=portal -- /run/user/1000/doc
+   3631  1000     0 root     artem    su              su -
+   3857  1000     0 root     artem    su              su - user1
+   3874  1234     0 root     user1    su              su -
+   3914  1234     0 root     user1    su              su -
+   3964  1234     0 root     user1    su              su -
+   4361  1234     0 root     user1    su              su -
+   4582  1234     0 root     user1    su              su -
+   4604  1234     0 root     user1    passwd          passwd

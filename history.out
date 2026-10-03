@@ -1,0 +1,10 @@
+    1  passwd
+    2  sudo -l
+    3  sudo /usr/bin/date
+    4  cat "time changed successfully"
+    5  date
+    6  echo "time changed successfully"
+    7  echo "Unfortunately, I have forgot to ask for my personal student ID so I cannot use it right now. So for now I will use the Id of my page from home.mephi which is 16207"
+    8  echo "Hopefully, when I finally recieve my student Id I may correct my Id for the correct one"
+    9  echo "16207"
+   10  history > ~/history.out
